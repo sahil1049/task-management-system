@@ -69,8 +69,8 @@ $body = [
     'Messages' => [
         [
             'From' => [
-                'Email' => "siddhant17csu190@ncuindia.edu",
-                'Name' => "Prashnottar Pvt Ltd."
+                'Email' => "email id",
+                'Name' => "no reply."
             ],
             'To' => [
                 [
@@ -94,7 +94,7 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
         'Content-Type: application/json')
 );
 
-curl_setopt($ch, CURLOPT_USERPWD, "0e799eebf043a01aa941e54b3e435aa9:d9eac8b3e30ce372055a45ae45567856");
+curl_setopt($ch, CURLOPT_USERPWD, "public api:private api");
 $server_output = curl_exec($ch);
 curl_close ($ch);
 
